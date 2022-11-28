@@ -1,4 +1,4 @@
-﻿void Chet(int N)
+void Chet(int N)
 {
    int i = 0;
    double pere;

@@ -6,10 +6,10 @@ int ReadNumber(string message)
     int a = s == null ? 0 : int.Parse(s);
     return a;
 }
-double Distance(int ax, int ay, int az, int bx, int by, int bz )
+double Distance(int ax, int ay, int az, int bx, int by, int bz ) // На основе практической задачи только добавили 2 переменные
 {
     double result;
-    result = Math.Sqrt(Math.Pow(bx - ax, 2) + Math.Pow(by - ay, 2) + Math.Pow(bz - az,2));
+    result = Math.Sqrt(Math.Pow(bx - ax, 2) + Math.Pow(by - ay, 2) + Math.Pow(bz - az,2)); //Изменили формулу дл выполнения задачи
     return result;
 }
 

@@ -20,7 +20,7 @@
     
    
 }
-Console.WriteLine("введите ч");
+Console.WriteLine("введите число");
 int chislo = int.Parse(Console.ReadLine());
 Chet(chislo);
 

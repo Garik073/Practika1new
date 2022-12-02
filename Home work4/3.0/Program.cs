@@ -10,8 +10,8 @@
         Console.Write ($"Введите элемент массива{i}: ");
         mArray[i] = int.Parse(Console.ReadLine());
         
-        
     }
+    Console.WriteLine(String.Empty);
 
     for (int i = 0; i < mArray.Length; i++)
     {

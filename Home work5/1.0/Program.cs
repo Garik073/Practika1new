@@ -7,7 +7,7 @@
     Console.WriteLine();
 }
 
-int[] Mass(int size)
+int [] Mass(int size)
 {
     int[] arr = new int[size];
 
@@ -16,19 +16,19 @@ int[] Mass(int size)
     return arr;
 }
 
-void Poisk(int[] arr)
+void Search(int[] arr)
 {
-    int Chetnoe = 0;
+    int even = 0;
     for (int i = 0; i < arr.Length; i++)
     {
         if(arr[i] % 2 == 0)
-             Chetnoe++;
+             even++;
     }
-    Console.WriteLine($"Количество четных чисел в массиве: = {Chetnoe}");
+    Console.WriteLine($"Количество четных чисел в массиве: = {even}");
 }
 
-int[] arr_1 = Mass(int.Parse(Console.ReadLine()));
+int[] arr_1 = Mass(Convert.ToInt32(Console.ReadLine()));
 Print(arr_1);
-Poisk(arr_1);
+Search(arr_1);
 
 

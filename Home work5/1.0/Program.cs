@@ -24,7 +24,7 @@ void Poisk(int[] arr)
         if(arr[i] % 2 == 0)
              Chetnoe++;
     }
-    Console.WriteLine($"Количество четных чисел в массиве: {Chetnoe}");
+    Console.WriteLine($"Количество четных чисел в массиве: = {Chetnoe}");
 }
 
 int[] arr_1 = Mass(int.Parse(Console.ReadLine()));

@@ -4,7 +4,7 @@ void Numbers(int a)
     if (b <= a)
     {
         Console.WriteLine(b);
-        b = b + 2;
+        b += 2;
         Numbers(a);
     }
 }
